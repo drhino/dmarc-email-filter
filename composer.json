@@ -1,0 +1,17 @@
+{
+    "name": "drhino/dmarc-email-filter",
+    "type": "library",
+    "description": "...",
+    "keywords": ["...", "..."],
+    "homepage": "https://github.com/drhino/dmarc-email-filter",
+    "license": "AGPL-3.0",
+    "require": {
+        "ext-zip": "*",
+        "zbateson/mail-mime-parser": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "drhino\\dmarcEmailFilter\\": "src/"
+        }
+    }
+}
